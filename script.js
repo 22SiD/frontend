@@ -49,9 +49,10 @@ function getDataById(id) {
 
 function postData() {
 	
-    var flatNo = document.getElementById("flatNo").value;
+    
 	var firstName = document.getElementById("firstName").value;
 	var lastName = document.getElementById("lastName").value;
+	var flatNo = document.getElementById("flatNo").value;
 	var phoneNumber = document.getElementById("phoneNumber").value;
 	var emailID = document.getElementById("emailID").value;
 
@@ -76,9 +77,9 @@ function postData() {
 
 
 function putData() {
-	var flatNo = document.getElementById("flatNo").value;
 	var firstName = document.getElementById("firstName").value;
 	var lastName = document.getElementById("lastName").value;
+	var flatNo = document.getElementById("flatNo").value;
 	var phoneNumber = document.getElementById("phoneNumber").value;
 	var emailID = document.getElementById("emailID").value;
 
